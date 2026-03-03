@@ -3,7 +3,7 @@
       "name": "bramble-kernel",
       "repo": "https://github.com/LineageOS/android_kernel_google_redbull",
       "branch": "lineage-23.2",
-      "device": "pixel 4a 5g (bramble)"
+      "device": "bramble"
     },
     "withKernelSU": true,
     "toolchains": [
