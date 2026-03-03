@@ -18,14 +18,16 @@
         "name": "clang"
       }
     ],
-    "params": {
-      "ARCH": "arm64",
-      "CROSS_COMPILE": "aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-      "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "",
-      "CC": "clang"
-    }
-  }
-]
+"params": {
+  "ARCH": "arm64",
+  "CROSS_COMPILE": "aarch64-linux-gnu-",
+  "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+  "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+  "CLANG_TRIPLE": "aarch64-linux-gnu-",
+  "AR": "llvm-ar",
+  "CC": "clang",
+  "NM": "llvm-nm",
+  "OBJCOPY": "llvm-objcopy",
+  "OBJDUMP": "llvm-objdump",
+  "STRIP": "llvm-strip"
+}
