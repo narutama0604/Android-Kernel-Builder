@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "bramble-kernel",
+      "repo": "https://github.com/LineageOS/android_kernel_google_redbull",
+      "branch": "lineage-23.2",
+      "device": "pixel 4a 5g (bramble)"
     },
     "withKernelSU": true,
     "toolchains": [
